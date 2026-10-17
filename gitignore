@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+chroma_db/
+*.sqlite3
+mineru_output/
+.DS_Store
