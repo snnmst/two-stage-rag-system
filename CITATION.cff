@@ -3,10 +3,10 @@ message: "If you use this software, please cite it using the metadata below."
 title: "Two-Stage RAG System for Financial Filing Question Answering"
 type: software
 version: "1.0.0"
-date-released: "2026-MM-DD"   # TODO: release date
+date-released: "2026-10-17"   # TODO: release date
 license: MIT
 repository-code: "https://github.com/snnmst/two-stage-rag-system"
-# doi: "10.5281/zenodo.XXXXXXX"   # TODO: uncomment after the first Zenodo release
+# doi: "10.5281/zenodo.23433987" 
 abstract: >-
   Research code and evaluation data for a two-stage retrieval-augmented generation
   cascade for question answering over SEC filings: a single-call extractor (System 1)
