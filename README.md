@@ -36,10 +36,8 @@ The cascade escalated 53 of 150 questions. Cascade labels were audited in a vali
 ## Repository structure
 
 ```
-code/   Pipeline code: data loading and table serialisation, index construction,
-        HyDE, System 1, System 2, cascade, evaluation          <!-- TODO: list the actual files -->
-data/   Per-question outputs of the three configurations, validation workbook,
-        error-coding ledger                                      <!-- TODO: list the actual files -->
+code/   Pipeline code: code notebook
+data/   Per-question outputs of the three configurations, necessary json files
 ```
 
 ## Method summary
@@ -56,11 +54,10 @@ data/   Per-question outputs of the three configurations, validation workbook,
 ```bash
 git clone https://github.com/snnmst/two-stage-rag-system.git
 cd two-stage-rag-system
-pip install -r requirements.txt      # TODO: add a pinned requirements.txt (pip freeze)
+pip install -r requirements.txt      
 cp .env.example .env                 # then add your OpenRouter API key
 ```
 
-You also need the FinanceBench filings (PDFs) and questions, which are **not** redistributed here: obtain them from the [FinanceBench release](https://github.com/patronus-ai/financebench) and place them as described in `code/` <!-- TODO: path -->.
 
 ## Reproducibility notes
 
@@ -72,7 +69,7 @@ You also need the FinanceBench filings (PDFs) and questions, which are **not** r
 ## Data and licensing
 
 - Code: MIT License (see `LICENSE`).
-- `data/` contains the outputs and annotations produced in this study. FinanceBench questions, reference answers and source filings remain under their original terms; please check the FinanceBench license before redistributing them. <!-- TODO: confirm what data/ redistributes -->
+- `data/` contains the outputs and annotations produced in this study. FinanceBench questions, reference answers and source filings remain under their original terms; please check the FinanceBench license before redistributing them. 
 
 ## How to cite
 
