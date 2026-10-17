@@ -1,6 +1,6 @@
 # Two-Stage RAG System for Financial Filing Question Answering
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) <!-- TODO: replace XXXXXXX after the first Zenodo release -->
+[![DOI](https://zenodo.org/badge/1422538043.svg)](https://doi.org/10.5281/zenodo.23433986)
 
 Research code and evaluation data for the paper **"Selective Escalation for Financial Filing Question Answering: A Cost–Quality Evaluation of a Two-Stage RAG System"** (Muştu & Altun, under review) and the underlying MSc thesis *"Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture for Automated Financial Document Auditing"* (Boğaziçi University, 2026).
 
@@ -82,7 +82,7 @@ If you use this repository, please cite the archived release (see `CITATION.cff`
   year      = {2026},
   publisher = {Zenodo},
   version   = {v1.0.0},
-  doi       = {10.5281/zenodo.XXXXXXX},   % TODO
+  doi       = {10.5281/zenodo.23433987},   
   url       = {https://github.com/snnmst/two-stage-rag-system}
 }
 ```
